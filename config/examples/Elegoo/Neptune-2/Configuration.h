@@ -81,8 +81,8 @@
 // MAIN CONFIGURATION SWITCHES FOR FEATURES - see readme.md for more details.
 
 #define IS_BOARD_1_3            true  // True if you have the 1.3 board, false for 1.2 board
-#define IS_2D                   false // True if you have a Neptuen 2d (Dual extruder)
 #define HAS_BLTOUCH             false  // Enable if you have a BlTouch, false fo no BlTouch
+#define IS_2D                   false // True if you have a Neptuen 2d (Dual extruder)
 // Define missing pins
 #define POWER_LOSS_PIN          PA2
 #define MT_DET_PIN_STATE        LOW
@@ -1979,13 +1979,13 @@
 // Preheat Constants - Up to 5 are supported without changes
 //
 #define PREHEAT_1_LABEL       "PLA"
-#define PREHEAT_1_TEMP_HOTEND 180
+#define PREHEAT_1_TEMP_HOTEND  200
 #define PREHEAT_1_TEMP_BED     50
 #define PREHEAT_1_TEMP_CHAMBER 35
 #define PREHEAT_1_FAN_SPEED     0 // Value from 0 to 255
 
 #define PREHEAT_2_LABEL       "PETG"
-#define PREHEAT_2_TEMP_HOTEND 230
+#define PREHEAT_2_TEMP_HOTEND  230
 #define PREHEAT_2_TEMP_BED     75
 #define PREHEAT_2_TEMP_CHAMBER 35
 #define PREHEAT_2_FAN_SPEED     0 // Value from 0 to 255
@@ -2230,7 +2230,7 @@
  *
  * Use CRC checks and retries on the SD communication.
  */
-//#define SD_CHECK_AND_RETRY
+#define SD_CHECK_AND_RETRY
 
 /**
  * LCD Menu Items
