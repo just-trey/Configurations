@@ -1,6 +1,6 @@
 # Elegoo Neptune 2/Neptune 2S Configuration
 
-Compied binaries of configuraiton are avaible here
+Compiled binaries of configurations are available here:
 
 The example provided has custom switches to simplify configuration in the `Configuration.h` file `// @section custom` section. This configuration supports the ZNP Robin Nano 1.2 and 1.3 Boards with only minor changes in `// @section custom` and a `default_envs` change in the `platformio.ini` file.
 
